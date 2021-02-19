@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Snippets</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!-- S: POST Data to the outside form inside iframe without loading main page -->
+
+        <form action="link-to-iframe.php" target="iframe-box" method="post">
+                
+            <label for="data">Insert value:</label>
+            <input type="text" name="data">         
+            <input type="submit" value="post">
+                    
+        </form>    
+        <iframe name="iframe-box" src="link-to-iframe.php"></iframe>
+
+        <!-- E: POST Data to the outside form inside iframe without loading main page -->
+    </body>
+</html>
+
